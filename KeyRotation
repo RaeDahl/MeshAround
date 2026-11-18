@@ -1,0 +1,9 @@
+when message is sent or recieved send encrypted copy of used encryption keys 
+
+##system is always updating and sending data about keys between stationary non-user nodes
+
+mesh node continuously encrypts message with new keys every few seconds and continues to send 
+a chain on encrypted encryption keys down the line to log keys that have already been used to avoid repeats
+
+user messages are impossible to crack as keys are getting permutated an unknown number of times as a message jumps through
+an unknowable number of transfer nodes
